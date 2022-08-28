@@ -219,15 +219,5 @@ function sendData(){
 
 
     console.log(senddata);
-    
-    // let redirect_link = '%%=CloudPagesURL(1620,'Id',@id,'utm_source',@utm_source,'utm_medium',@utm_medium,'utm_campaign',@utm_campaign,'landing_name',@landing_name)=%%'
-    // $.ajax({
-    //   url: redirect_link,
-    //   data: senddata,
-    //   type: 'POST',
-    //   success: function (r) {
-    //     console.log('Ok'); 
-    //     console.log(senddata); 
-    //   }
-    // });
+
 }
