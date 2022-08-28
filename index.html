@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parliament</title>
+    <meta property="og:title" content="Parliament" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/quiz.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="container">
+                <div class="top">
+                    <img class="logo" src="img/logo.png" alt="Parliament">
+                    <ul class="nav">
+                        <li><a href="#">Всё о продуктах</a></li>
+                    </ul>
+                    <div class="dropdown">
+                        <span class="dropdown-item">Виктория</span>
+                        <div id="dropdownList" class="dropdown-list">
+                            <ul>
+                                <li><a href="#">Личный кабинет</a></li>
+                                <li><a href="#">Выход</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mob-nav">
+                        <div class="dropdown">
+                            <span class="dropdown-item"><img src="img/nav.svg" alt=""></span>
+                            <div id="dropdownListMobile" class="dropdown-list">
+                                <ul>
+                                    <li><a href="#">Всё о продуктах</a></li>
+                                </ul>
+                                <hr>
+                                <ul>
+                                    <li><a href="#">Личный кабинет</a></li>
+                                    <li><a href="#">Выход</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="quiz-box" id="quiz">
+                <div id="quizBody" class="quiz-header"></div>
+                <div id="quizResult" class="message">
+                    <img class="icon" src="img/done.svg" alt="">
+                    <h3>Спасибо за ваши ответы!</h3><br>
+                    <h3>Проверяйте личный кабинет на платформе<br>
+                    Parliament.ru, ведь приз уже там!</h3>
+
+                    <a class="btn sticky" href="#">На платформу</a>
+                </div>
+                <div id="quizQuit" class="message">
+                    <h3>Спасибо!</h3><br>
+                    <h3>Наша платформа предназначена только для совершеннолетних курильщиков.</h3>
+                    <h3>Мы отправим запрос, чтобы вашу учетную запись удалили из базы.</h3>
+                </div>
+            </div>
+            <div class="rotate-box message">
+                <img src="img/rotate.svg" alt="">
+                <h3>Поверните телефон</h3>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <span>Курение убивает</span>
+            </div>
+            
+        </div>
+    </main>
+
+
+    
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/data.js"></script>
+<script src="js/scenario.js"></script>
+<script src="js/quiz.js"></script>
+
+</body>
+</html>
