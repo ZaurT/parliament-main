@@ -85,6 +85,10 @@ main{
 	align-items: center;
 }
 
+.top img{
+    max-height: 38px;
+}
+
 .content {
     height: 100%;
     overflow-y: auto;
